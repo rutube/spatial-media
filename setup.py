@@ -1,4 +1,6 @@
 from distutils.core import setup
+from shutil import copy
+
 try:
     copy("bin/spatial_media.py", "bin/spatial_media")
 except (OSError, IOError):
